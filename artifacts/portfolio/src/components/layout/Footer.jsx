@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaS
 import { motion } from "framer-motion";
 
 const socialLinks = [
-  { icon: FaGithub, href: "https://github.com/abakahjayy", label: "GitHub" },
+  { icon: FaGithub, href: "https://github.com/abakahjay", label: "GitHub" },
   { icon: FaWhatsapp, href: "https://wa.me/233532900914", label: "WhatsApp" },
   // { icon: FaLinkedin, href: "#", label: "LinkedIn" },
   // { icon: FaTwitter, href: "#", label: "X (Twitter)" },
