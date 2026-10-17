@@ -36,7 +36,7 @@ A premium, animated personal portfolio and lead-generation site for Abakah Joshu
 
 ## Product
 
-- Single-page portfolio covering hero, about, skills, experience, 5 real featured projects (SeedBridge, GH-GPT, Instagram Clone, Universal Backend Service, OpenLabs Backend) with live URLs, open-source stats, backend-services offerings, services, "why choose me", testimonials, process, pricing, FAQ, blog placeholder, contact, and a "Let's Build Your Dream Website" order form, plus footer/socials, dark-mode-default theme toggle, and a custom 404 page.
+- Single-page portfolio covering hero, about, skills, experience, 5 real featured projects (SeedBridge, GH-GPT, Nsoro, Universal Backend Service, OpenLabs Backend) with live URLs, open-source stats, backend-services offerings, services, "why choose me", testimonials, process, pricing, FAQ, blog placeholder, contact, and a "Let's Build Your Dream Website" order form, plus footer/socials, dark-mode-default theme toggle, and a custom 404 page.
 
 ## User preferences
 

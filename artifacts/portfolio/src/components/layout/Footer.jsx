@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Text, Stack, SimpleGrid } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaSnapchatGhost, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaStar, FaFacebook, FaTiktok, FaSnapchatGhost, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const socialLinks = [
@@ -7,7 +7,7 @@ const socialLinks = [
   { icon: FaWhatsapp, href: "https://wa.me/233532900914", label: "WhatsApp" },
   // { icon: FaLinkedin, href: "#", label: "LinkedIn" },
   // { icon: FaTwitter, href: "#", label: "X (Twitter)" },
-  { icon: FaInstagram, href: "https://instagram.com/abakah_jay", label: "Instagram" },
+  { icon: FaStar, href: "https://nsoro-app.onrender.com/abakah_jay", label: "Nsoro" },
   { icon: FaTiktok, href: "https://tiktok.com/@abakah_jay", label: "TikTok" },
   { icon: FaSnapchatGhost, href: "https://snapchat.com/add/abakah_jay", label: "Snapchat" },
   // { icon: FaFacebook, href: "#", label: "Facebook" },

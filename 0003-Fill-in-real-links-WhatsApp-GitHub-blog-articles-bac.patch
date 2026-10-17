@@ -32,8 +32,8 @@ index 5ef186d..7ca66fa 100644
 +++ b/artifacts/portfolio/src/components/layout/Footer.jsx
 @@ -1,9 +1,10 @@
  import { Box, Container, Flex, Text, Stack, SimpleGrid } from "@chakra-ui/react";
--import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaSnapchatGhost } from "react-icons/fa";
-+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaSnapchatGhost, FaWhatsapp } from "react-icons/fa";
+-import { FaGithub, FaLinkedin, FaTwitter, FaStar, FaFacebook, FaTiktok, FaSnapchatGhost } from "react-icons/fa";
++import { FaGithub, FaLinkedin, FaTwitter, FaStar, FaFacebook, FaTiktok, FaSnapchatGhost, FaWhatsapp } from "react-icons/fa";
  import { motion } from "framer-motion";
  
  const socialLinks = [
@@ -42,7 +42,7 @@ index 5ef186d..7ca66fa 100644
 +  { icon: FaWhatsapp, href: "https://wa.me/233532900914", label: "WhatsApp" },
    { icon: FaLinkedin, href: "#", label: "LinkedIn" },
    { icon: FaTwitter, href: "#", label: "X (Twitter)" },
-   { icon: FaInstagram, href: "https://instagram.com/abakah_jay", label: "Instagram" },
+   { icon: FaStar, href: "https://nsoro-app.onrender.com/abakah_jay", label: "Nsoro" },
 diff --git a/artifacts/portfolio/src/components/sections/BackendServices.jsx b/artifacts/portfolio/src/components/sections/BackendServices.jsx
 index 2d786f0..f7a201d 100644
 --- a/artifacts/portfolio/src/components/sections/BackendServices.jsx

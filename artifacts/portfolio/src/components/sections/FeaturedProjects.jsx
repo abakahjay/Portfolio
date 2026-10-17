@@ -28,11 +28,11 @@ const projects = [
     githubUrl: "#"
   },
   {
-    title: "Instagram Clone",
-    description: "Full-featured social media clone replicating core Instagram functionality — feeds, posts, likes, and profiles — built end-to-end with React.",
+    title: "Nsoro",
+    description: "Social app for sharing moments — feeds, posts, stars, profiles, end-to-end encrypted chat and voice/video calls — on web, Android, Windows and TV.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://react-products-hcld.onrender.com",
+    liveUrl: "https://nsoro-app.onrender.com",
     githubUrl: "#"
   },
   {

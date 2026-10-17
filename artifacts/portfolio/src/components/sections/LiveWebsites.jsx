@@ -22,10 +22,10 @@ const websites = [
     url: "https://gh-gpt.onrender.com"
   },
   {
-    title: "Instagram Clone",
-    description: "Full-featured social media clone with feeds, posts, and profiles.",
+    title: "Nsoro",
+    description: "Social app with feeds, posts, profiles, encrypted chat and calls.",
     image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600",
-    url: "https://react-products-hcld.onrender.com"
+    url: "https://nsoro-app.onrender.com"
   },
   {
     title: "Universal Backend Service",
