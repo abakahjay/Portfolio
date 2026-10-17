@@ -24,7 +24,7 @@ const websites = [
   {
     title: "Nsoro",
     description: "Social app with feeds, posts, profiles, encrypted chat and calls.",
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600",
+    image: "/projects/nsoro.png",
     url: "https://nsoro-app.onrender.com"
   },
   {
