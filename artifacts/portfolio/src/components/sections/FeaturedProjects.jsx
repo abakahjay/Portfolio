@@ -16,7 +16,7 @@ const projects = [
     description: "A personal income/expense tracker with per-user data, Google OAuth login, and live toast notifications — backed by a real REST API rather than local mock data.",
     tech: ["React", "Vite", "Node.js", "MongoDB", "Express"],
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://expense-tracker-joshua.onrender.com",
+    liveUrl: "https://finance-tracker-8iel.onrender.com",
     githubUrl: "#"
   },
   {

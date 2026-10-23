@@ -13,7 +13,7 @@ const websites = [
     title: "Finance Tracker",
     description: "Personal income/expense tracker with Google OAuth and per-user data, backed by a real REST API.",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600",
-    url: "https://expense-tracker-joshua.onrender.com"
+    url: "https://finance-tracker-8iel.onrender.com"
   },
   {
     title: "SeedBridge",
