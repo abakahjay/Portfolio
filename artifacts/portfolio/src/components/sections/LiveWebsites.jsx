@@ -4,6 +4,12 @@ import { FiExternalLink } from "react-icons/fi";
 
 const websites = [
   {
+    title: "GhanaCropGuard AI",
+    description: "Photograph a cashew, cassava, maize or tomato leaf and get the likely disease or pest, with a model trained on Ghanaian farm photos. Web and Android app.",
+    image: "/projects/ghanacropguard.webp",
+    url: "https://ghanacropguard-web.onrender.com"
+  },
+  {
     title: "Finance Tracker",
     description: "Personal income/expense tracker with Google OAuth and per-user data, backed by a real REST API.",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600",

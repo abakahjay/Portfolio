@@ -4,6 +4,14 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 const projects = [
   {
+    title: "GhanaCropGuard AI",
+    description: "Crop disease and pest detection for Ghanaian farmers: a MobileNetV3 model trained on 24,881 CCMT field photos (89% test accuracy), served with ONNX Runtime inside a Node.js API, with a React web app, an installable PWA and an Android app.",
+    tech: ["PyTorch", "ONNX", "React", "Expo", "Node.js", "MongoDB"],
+    image: "/projects/ghanacropguard.webp",
+    liveUrl: "https://ghanacropguard-web.onrender.com",
+    githubUrl: "https://github.com/abakahjay/ghanacropguard-ai"
+  },
+  {
     title: "Finance Tracker",
     description: "A personal income/expense tracker with per-user data, Google OAuth login, and live toast notifications — backed by a real REST API rather than local mock data.",
     tech: ["React", "Vite", "Node.js", "MongoDB", "Express"],
