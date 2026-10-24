@@ -10,21 +10,33 @@ const websites = [
     url: "https://ghanacropguard-web.onrender.com"
   },
   {
+    title: "CleanBridge GH",
+    description: "Book a waste pickup in a minute, pay with Mobile Money or cash, and track the collector on a live map.",
+    image: "/projects/cleanbridge.webp",
+    url: "https://cleanbridge-gh.onrender.com"
+  },
+  {
+    title: "BillNova AI Partners",
+    description: "Website for a responsible-AI advisory firm in Ghana, with service pages and an enquiry form.",
+    image: "/projects/billnova.webp",
+    url: "https://billnova-ai-partners-website.onrender.com"
+  },
+  {
     title: "Finance Tracker",
     description: "Personal income/expense tracker with Google OAuth and per-user data, backed by a real REST API.",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600",
+    image: "/projects/financetracker.webp",
     url: "https://finance-tracker-8iel.onrender.com"
   },
   {
     title: "SeedBridge",
     description: "AI-powered agricultural marketplace connecting farmers directly to buyers.",
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80&w=600",
+    image: "/projects/seedbridge.webp",
     url: "https://seedbridge-blueprint.onrender.com"
   },
   {
     title: "GH-GPT",
-    description: "AI chatbot platform running on a custom-built AI model.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=600",
+    description: "AI assistant for writing, coding, images and documents, with saved chats and Google sign-in.",
+    image: "/projects/ghgpt.webp",
     url: "https://gh-gpt.onrender.com"
   },
   {
@@ -36,7 +48,7 @@ const websites = [
   {
     title: "Universal Backend Service",
     description: "Fully integrated backend powering all of my applications, built for easy reuse.",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600",
+    image: "/projects/fullbackend.webp",
     url: "https://fullbackendd.onrender.com"
   },
   {

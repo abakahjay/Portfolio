@@ -22,9 +22,6 @@ export function About() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-                // About Me
-              </Text>
               <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={6}>
                 Engineering Solutions <br />
                 <Box as="span" color="textMuted">That Matter.</Box>

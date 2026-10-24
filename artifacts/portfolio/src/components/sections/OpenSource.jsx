@@ -24,9 +24,6 @@ export function OpenSource() {
         <Flex direction={{ base: "column", lg: "row" }} align="center" justify="space-between" gap={12}>
           
           <Box flex={1} maxW="2xl">
-            <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-              // Open Source
-            </Text>
             <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={6}>
               Giving Back to the <br />Community.
             </Heading>

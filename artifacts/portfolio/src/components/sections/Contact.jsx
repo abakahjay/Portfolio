@@ -67,9 +67,6 @@ export function Contact() {
           
           <Box flex={1}>
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-              <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-                // Get In Touch
-              </Text>
               <Heading as="h2" fontSize={{ base: "4xl", md: "6xl" }} fontFamily="heading" fontWeight="800" mb={6}>
                 Let's discuss your next project.
               </Heading>

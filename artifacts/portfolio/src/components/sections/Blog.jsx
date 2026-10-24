@@ -35,9 +35,6 @@ export function Blog() {
       <Container maxW="container.xl">
         <Flex justify="space-between" align="flex-end" mb={12} flexWrap="wrap" gap={4}>
           <Box>
-            <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-              // Insights
-            </Text>
             <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800">
               Latest Articles
             </Heading>

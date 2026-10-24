@@ -56,9 +56,6 @@ export function Testimonials() {
     <Box as="section" py={32} bg="glass.dark" borderTop="1px solid" borderBottom="1px solid" borderColor="borderBase" position="relative">
       <Container maxW="container.xl">
         <Box textAlign="center" mb={16}>
-          <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // Client Feedback
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={4}>
             Testimonials
           </Heading>

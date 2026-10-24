@@ -54,9 +54,6 @@ export function Pricing() {
     <Box as="section" py={32} bg="glass.dark" borderTop="1px solid" borderBottom="1px solid" borderColor="borderBase">
       <Container maxW="container.xl">
         <Box textAlign="center" mb={16}>
-          <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // Investment
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={4}>
             Transparent Pricing
           </Heading>

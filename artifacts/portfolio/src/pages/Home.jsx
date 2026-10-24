@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
-import { Loader } from "@/components/ui/Loader";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { Navbar } from "@/components/layout/Navbar";
@@ -26,20 +24,6 @@ import { Contact } from "@/components/sections/Contact";
 import { Order } from "@/components/sections/Order";
 
 export function Home() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate premium loading experience
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) {
-    return <Loader />;
-  }
-
   return (
     <Box position="relative">
       <ScrollProgress />

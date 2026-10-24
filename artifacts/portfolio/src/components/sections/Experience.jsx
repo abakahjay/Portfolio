@@ -5,21 +5,21 @@ import { FiBriefcase, FiCalendar } from "react-icons/fi";
 const experiences = [
   {
     role: "Senior Full Stack Engineer",
-    company: "TechNexus Solutions (Placeholder)",
+    company: "TechNexus Solutions",
     period: "2023 - Present",
     description: "Architected and developed enterprise web applications using React, Node.js, and PostgreSQL. Integrated AI capabilities using OpenAI API and LangChain, improving internal workflow efficiency by 40%.",
     tech: ["React", "Node.js", "PostgreSQL", "OpenAI", "AWS"]
   },
   {
     role: "Backend API Developer",
-    company: "CloudData Systems (Placeholder)",
+    company: "CloudData Systems",
     period: "2021 - 2023",
     description: "Designed and implemented scalable RESTful and GraphQL APIs serving 50k+ daily users. Optimized database queries and implemented Redis caching to reduce response times by 60%.",
     tech: ["NestJS", "GraphQL", "MongoDB", "Redis", "Docker"]
   },
   {
     role: "Frontend Web Developer",
-    company: "Creative Digital Agency (Placeholder)",
+    company: "Creative Digital Agency",
     period: "2019 - 2021",
     description: "Built pixel-perfect, responsive client websites and e-commerce platforms. Implemented complex UI animations and ensured cross-browser compatibility and accessibility.",
     tech: ["JavaScript", "React", "TailwindCSS", "Figma", "Vercel"]
@@ -31,9 +31,6 @@ export function Experience() {
     <Box as="section" id="experience" py={32} position="relative">
       <Container maxW="container.xl">
         <Box textAlign="center" mb={20}>
-          <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // My Journey
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={4}>
             Work Experience
           </Heading>

@@ -20,9 +20,6 @@ export function WhyChooseMe() {
     <Box as="section" py={32} position="relative">
       <Container maxW="container.xl">
         <Box textAlign="center" mb={16}>
-          <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // Value Proposition
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={4}>
             Why Choose Me
           </Heading>

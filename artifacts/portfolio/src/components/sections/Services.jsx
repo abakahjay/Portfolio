@@ -22,9 +22,6 @@ export function Services() {
 
       <Container maxW="container.xl" position="relative" zIndex={1}>
         <Box textAlign="center" mb={16}>
-          <Text color="brand.300" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // What I Offer
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} color="white" fontFamily="heading" fontWeight="800" mb={4}>
             Custom Software Services
           </Heading>

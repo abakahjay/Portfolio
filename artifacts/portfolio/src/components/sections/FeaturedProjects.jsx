@@ -12,10 +12,26 @@ const projects = [
     githubUrl: "https://github.com/abakahjay/ghanacropguard-ai"
   },
   {
+    title: "CleanBridge GH",
+    description: "Waste collection for Ghana: households book a pickup in a minute, pay with Mobile Money or cash, and watch their collector arrive on a live map. Collector and operations apps, weekly and monthly plans, push notifications, on web, Android and Windows.",
+    tech: ["React", "Leaflet", "Node.js", "MongoDB", "Paystack", "SSE"],
+    image: "/projects/cleanbridge.webp",
+    liveUrl: "https://cleanbridge-gh.onrender.com",
+    githubUrl: "https://github.com/abakahjay/CleanBridge-GH"
+  },
+  {
+    title: "BillNova AI Partners",
+    description: "Company website for BillNova AI Partners Limited, a responsible-AI advisory firm in Ghana: service pages, an animated framework diagram, and a contact form that sends enquiries to the firm.",
+    tech: ["React", "Vite", "Chakra UI", "Node.js"],
+    image: "/projects/billnova.webp",
+    liveUrl: "https://billnova-ai-partners-website.onrender.com",
+    githubUrl: "https://github.com/abakahjay/BillNova-AI-Partners-Website"
+  },
+  {
     title: "Finance Tracker",
     description: "A personal income/expense tracker with per-user data, Google OAuth login, and live toast notifications — backed by a real REST API rather than local mock data.",
     tech: ["React", "Vite", "Node.js", "MongoDB", "Express"],
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800",
+    image: "/projects/financetracker.webp",
     liveUrl: "https://finance-tracker-8iel.onrender.com",
     githubUrl: "#"
   },
@@ -23,15 +39,15 @@ const projects = [
     title: "SeedBridge",
     description: "AI-powered Farmer-to-Buyer agricultural marketplace facilitating direct trade, price prediction, and supply chain visibility for farmers and buyers.",
     tech: ["React", "Node.js", "MongoDB", "Express", "AI"],
-    image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80&w=800",
+    image: "/projects/seedbridge.webp",
     liveUrl: "https://seedbridge-blueprint.onrender.com",
     githubUrl: "#"
   },
   {
     title: "GH-GPT",
-    description: "AI chatbot platform powered by a custom-built AI model, delivering conversational responses without relying on third-party LLM APIs.",
-    tech: ["React", "Node.js", "Custom AI Model", "Express"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+    description: "AI assistant for writing, coding and questions about images and documents, with saved chats, image generation and Google sign-in. Routes requests across OpenRouter, Google Gemini and OpenAI so it stays up when one provider is down.",
+    tech: ["React", "Node.js", "Express", "OpenRouter", "Gemini"],
+    image: "/projects/ghgpt.webp",
     liveUrl: "https://gh-gpt.onrender.com",
     githubUrl: "#"
   },
@@ -47,7 +63,7 @@ const projects = [
     title: "Universal Backend Service",
     description: "A fully integrated backend service designed for easy reuse across all of my applications — centralizing auth, data, and API logic in one place.",
     tech: ["Node.js", "Express", "MongoDB", "REST API"],
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+    image: "/projects/fullbackend.webp",
     liveUrl: "https://fullbackendd.onrender.com",
     githubUrl: "#"
   },
@@ -66,9 +82,6 @@ export function FeaturedProjects() {
     <Box as="section" id="projects" py={32} bg="glass.dark" borderTop="1px solid" borderBottom="1px solid" borderColor="borderBase">
       <Container maxW="container.xl">
         <Box textAlign="center" mb={16}>
-          <Text color="brand.500" fontWeight="700" fontFamily="mono" mb={3} textTransform="uppercase" letterSpacing="widest" fontSize="sm">
-            // Portfolio
-          </Text>
           <Heading as="h2" fontSize={{ base: "3xl", md: "5xl" }} fontFamily="heading" fontWeight="800" mb={4}>
             Featured Projects
           </Heading>
