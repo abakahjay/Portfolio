@@ -174,6 +174,7 @@ export function Contact() {
                 <Box as="button" type="submit" disabled={isSubmitting} w="full" bg="brand.500" color="white" py={4} borderRadius="lg" fontWeight="700" fontSize="md" transition="all 0.2s" _hover={{ bg: "brand.600", transform: "translateY(-2px)" }} _disabled={{ opacity: 0.7, cursor: "not-allowed", transform: "none" }}>
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </Box>
+                <Text mt={3} fontSize="xs" color="textMuted" textAlign="center">Your details are used only to reply to you. They are never sold or shared.</Text>
               </Box>
             </motion.div>
           </Box>

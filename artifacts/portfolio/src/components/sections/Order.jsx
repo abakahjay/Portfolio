@@ -173,6 +173,7 @@ export function Order() {
             <Box as="button" type="submit" disabled={isSubmitting} w="full" bg="brand.500" color="white" py={4} borderRadius="lg" fontWeight="800" fontSize="lg" transition="all 0.2s" _hover={{ bg: "brand.600", transform: "translateY(-2px)", boxShadow: "0 10px 20px rgba(14, 165, 233, 0.3)" }} _disabled={{ opacity: 0.7, cursor: "not-allowed", transform: "none" }}>
               {isSubmitting ? "Submitting Request..." : "Submit Project Request"}
             </Box>
+            <Text mt={3} fontSize="xs" color="textMuted" textAlign="center">Your details are used only to reply to you. They are never sold or shared.</Text>
           </Box>
         </motion.div>
       </Container>
