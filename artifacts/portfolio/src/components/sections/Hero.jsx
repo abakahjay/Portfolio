@@ -1,7 +1,7 @@
 import { Box, Container, Flex, Heading, Text, SimpleGrid, Image } from "@chakra-ui/react";
 import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useEffect } from "react";
-import { FiArrowRight, FiCode } from "react-icons/fi";
+import { FiArrowRight, FiCode, FiDownload } from "react-icons/fi";
 import { FaHandSparkles } from "react-icons/fa";
 import profilePhoto from "../../assets/profile.jpeg";
 
@@ -132,6 +132,13 @@ export function Hero() {
                   transition="all 0.3s" _hover={{ bg: "glass.dark", transform: "translateY(-2px)" }}
                 >
                   View My Work <FiCode />
+                </Box>
+                <Box
+                  as="a" href="/Abakah_Joshua_Blessed_Resume.pdf" download
+                  color="textBase" px={4} py={4} fontWeight="600" display="flex" alignItems="center" gap={2}
+                  textDecoration="underline" textUnderlineOffset="4px" transition="color 0.2s" _hover={{ color: "brand.400" }}
+                >
+                  Résumé (PDF) <FiDownload />
                 </Box>
               </Flex>
             </motion.div>
