@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Heading, Text, SimpleGrid, Image } from "@chakra-ui/react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useEffect } from "react";
 import { FiArrowRight, FiDownload, FiCode } from "react-icons/fi";
 import { FaHandSparkles } from "react-icons/fa";
@@ -20,12 +20,24 @@ export function Hero() {
   const y = useTransform(scrollY, [0, 500], [0, 150]);
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
+  const reduceMotion = useReducedMotion();
+
+  // Cycle the titles every 3s; hold still for reduced motion and pause while the tab is hidden.
   useEffect(() => {
-    const interval = setInterval(() => {
-      setTitleIndex((prev) => (prev + 1) % titles.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+    if (reduceMotion) return undefined;
+    let interval;
+    const start = () => {
+      clearInterval(interval);
+      interval = setInterval(() => setTitleIndex((prev) => (prev + 1) % titles.length), 3000);
+    };
+    const onVisibility = () => (document.hidden ? clearInterval(interval) : start());
+    start();
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => {
+      clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibility);
+    };
+  }, [reduceMotion]);
 
   return (
     <Box 
@@ -92,18 +104,20 @@ export function Hero() {
               </Heading>
             </motion.div>
 
-            <Box h="40px" mb={8} overflow="hidden">
-              <motion.div
-                key={titleIndex}
-                initial={{ y: 40, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                exit={{ y: -40, opacity: 0 }}
-                transition={{ duration: 0.5, type: "spring", stiffness: 100 }}
-              >
-                <Text fontSize={{ base: "xl", md: "2xl" }} color="textMuted" fontWeight="500" fontFamily="mono">
-                  &gt; {titles[titleIndex]}
-                </Text>
-              </motion.div>
+            <Box h="40px" mb={8} overflow="hidden" position="relative">
+              <AnimatePresence mode="popLayout" initial={false}>
+                <motion.div
+                  key={titleIndex}
+                  initial={{ y: "100%", opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  exit={{ y: "-100%", opacity: 0 }}
+                  transition={{ duration: 0.6, ease: [0.65, 0, 0.35, 1] }}
+                >
+                  <Text fontSize={{ base: "xl", md: "2xl" }} color="textMuted" fontWeight="500" fontFamily="mono">
+                    &gt; {titles[titleIndex]}
+                  </Text>
+                </motion.div>
+              </AnimatePresence>
             </Box>
 
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
