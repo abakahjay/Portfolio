@@ -6,7 +6,7 @@ import {
   SiNodedotjs, SiExpress, SiNestjs, SiGraphql,
   SiMongodb, SiPostgresql, SiMysql, SiFirebase, SiRedis,
   SiDocker, SiRender, SiVercel, SiRailway,
-  SiHuggingface, SiLangchain,
+  SiHuggingface, SiLangchain, SiClaude,
   SiGit, SiGithub, SiPostman, SiFigma
 } from "react-icons/si";
 import { FaAws, FaJava, FaCss3Alt } from "react-icons/fa";
@@ -71,6 +71,7 @@ const skillCategories = [
     title: "AI Development",
     skills: [
       { name: "OpenAI", icon: RiOpenaiLine, color: "#412991" },
+      { name: "Claude", icon: SiClaude, color: "#D97757" },
       { name: "LangChain", icon: SiLangchain, color: "#121212" },
       { name: "HuggingFace", icon: SiHuggingface, color: "#FFD21E" },
       { name: "OpenRouter", icon: null, color: "#ffffff" },
