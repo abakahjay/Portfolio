@@ -15,8 +15,7 @@ export function NotFound() {
         <Heading 
           fontSize={{ base: "8xl", md: "9xl" }} 
           fontWeight="800" 
-          bgGradient="linear(to-r, brand.400, purple.500)"
-          backgroundClip="text"
+          color="brand.400"
           fontFamily="heading"
           mb={4}
         >

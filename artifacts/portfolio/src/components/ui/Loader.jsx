@@ -32,7 +32,7 @@ export function Loader() {
             inset: "10px",
             borderRadius: "50%",
             border: "2px solid rgba(255,255,255,0.1)",
-            borderRightColor: "#8b5cf6", // purple.500
+            borderRightColor: "#38bdf8", // brand sky, lighter than the top arc
           }}
         />
         <Flex position="absolute" inset={0} align="center" justify="center">

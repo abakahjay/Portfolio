@@ -18,7 +18,6 @@ export function Services() {
         backgroundSize="40px 40px"
       />
       <Box position="absolute" top="0" right="0" w="50vw" h="50vw" bg="brand.500" filter="blur(150px)" opacity={0.3} borderRadius="full" transform="translate(30%, -30%)" />
-      <Box position="absolute" bottom="0" left="0" w="40vw" h="40vw" bg="purple.600" filter="blur(150px)" opacity={0.3} borderRadius="full" transform="translate(-30%, 30%)" />
 
       <Container maxW="container.xl" position="relative" zIndex={1}>
         <Box textAlign="center" mb={16}>

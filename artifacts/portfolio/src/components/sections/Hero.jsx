@@ -1,7 +1,7 @@
 import { Box, Container, Flex, Heading, Text, SimpleGrid, Image } from "@chakra-ui/react";
 import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useState, useEffect } from "react";
-import { FiArrowRight, FiDownload, FiCode } from "react-icons/fi";
+import { FiArrowRight, FiCode } from "react-icons/fi";
 import { FaHandSparkles } from "react-icons/fa";
 import profilePhoto from "../../assets/profile.jpeg";
 
@@ -55,11 +55,6 @@ export function Hero() {
         bgGradient="radial(circle, rgba(14, 165, 233, 0.15) 0%, transparent 70%)" 
         filter="blur(80px)" zIndex={0} 
       />
-      <Box 
-        position="absolute" bottom="-10%" right="-10%" w="60vw" h="60vw" 
-        bgGradient="radial(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%)" 
-        filter="blur(80px)" zIndex={0} 
-      />
       
       {/* Grid Pattern Overlay */}
       <Box 
@@ -92,13 +87,13 @@ export function Hero() {
 
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}>
               <Heading 
-                as="h1" fontSize={{ base: "4xl", sm: "5xl", md: "7xl" }} fontWeight="800" 
+                as="h1" fontSize={{ base: "3xl", sm: "4xl", md: "6xl", lg: "clamp(2.25rem, 4.1vw, 3.75rem)" }} fontWeight="800" 
                 lineHeight={{ base: "1.3", md: "1.15" }} fontFamily="heading" mb={4}
                 pt={1}
               >
                 Building Powerful{" "}
                 <Box as="br" display={{ base: "none", sm: "inline" }} />
-                <Box as="span" bgGradient="linear(to-r, brand.400, purple.500)" backgroundClip="text">
+                <Box as="span" color="brand.400">
                   Digital Experiences
                 </Box>
               </Heading>
@@ -138,30 +133,12 @@ export function Hero() {
                 >
                   View My Work <FiCode />
                 </Box>
-                <Box 
-                  as="button" onClick={() => alert("Resume upload pending")}
-                  color="textMuted" px={6} py={4} borderRadius="xl" fontWeight="600"
-                  display="flex" alignItems="center" gap={2} transition="all 0.3s"
-                  _hover={{ color: "textBase" }}
-                >
-                  <FiDownload /> Resume
-                </Box>
               </Flex>
             </motion.div>
           </Box>
 
           <Box flex={1} display="flex" justifyContent="center" position="relative" w="full">
             <Box position="relative" w={{ base: "300px", md: "450px" }} h={{ base: "300px", md: "450px" }}>
-              {/* Floating elements behind */}
-              <motion.div
-                animate={{ y: [0, -20, 0], rotate: [0, 5, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                style={{ position: "absolute", top: "10%", right: "10%", width: "80px", height: "80px", background: "linear-gradient(135deg, #0ea5e9, #3b82f6)", borderRadius: "20px", filter: "blur(20px)", opacity: 0.6 }}
-              />
-              <motion.div
-                animate={{ y: [0, 20, 0], rotate: [0, -5, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                style={{ position: "absolute", bottom: "10%", left: "10%", width: "100px", height: "100px", background: "linear-gradient(135deg, #8b5cf6, #d946ef)", borderRadius: "50%", filter: "blur(30px)", opacity: 0.5 }}
-              />
-
               {/* Profile Photo */}
               <Box
                 w="full" h="full" bg="panel" borderRadius="3xl" border="1px solid" borderColor="borderBase"
@@ -181,7 +158,7 @@ export function Hero() {
                 />
                 {/* Decorative corner accents */}
                 <Box position="absolute" top={0} left={0} w="40px" h="40px" borderTop="2px solid" borderLeft="2px solid" borderColor="brand.500" borderTopLeftRadius="3xl" m={4} />
-                <Box position="absolute" bottom={0} right={0} w="40px" h="40px" borderBottom="2px solid" borderRight="2px solid" borderColor="purple.500" borderBottomRightRadius="3xl" m={4} />
+                <Box position="absolute" bottom={0} right={0} w="40px" h="40px" borderBottom="2px solid" borderRight="2px solid" borderColor="brand.500" borderBottomRightRadius="3xl" m={4} />
               </Box>
             </Box>
           </Box>
