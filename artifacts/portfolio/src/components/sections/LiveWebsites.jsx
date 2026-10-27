@@ -22,6 +22,12 @@ const websites = [
     url: "https://billnova-ai-partners-website.onrender.com"
   },
   {
+    title: "The Anatomy of a Suit",
+    description: "Scroll-driven film site for a bespoke tailor: scrolling plays the film, chapter by chapter, from shirt to final fitting.",
+    image: "/projects/anatomyofasuit.webp",
+    url: "https://anatomy-of-a-suit.onrender.com"
+  },
+  {
     title: "Finance Tracker",
     description: "Personal income/expense tracker with Google OAuth and per-user data, backed by a real REST API.",
     image: "/projects/financetracker.webp",

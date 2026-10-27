@@ -28,6 +28,14 @@ const projects = [
     githubUrl: "https://github.com/abakahjay/BillNova-AI-Partners-Website"
   },
   {
+    title: "The Anatomy of a Suit",
+    description: "A scroll-driven film site for a bespoke tailor: scrolling scrubs a 535-frame film cut from real footage, shirt to waistcoat to the final fitting, while the chapter text rises in over each scene. Separate portrait frames for phones and a still-image layout for reduced motion.",
+    tech: ["React", "Vite", "GSAP", "Lenis", "Canvas", "FFmpeg"],
+    image: "/projects/anatomyofasuit.webp",
+    liveUrl: "https://anatomy-of-a-suit.onrender.com",
+    githubUrl: "https://github.com/abakahjay/Anatomy-of-a-Suit"
+  },
+  {
     title: "Finance Tracker",
     description: "A personal income/expense tracker with per-user data, Google OAuth login, and live toast notifications — backed by a real REST API rather than local mock data.",
     tech: ["React", "Vite", "Node.js", "MongoDB", "Express"],
