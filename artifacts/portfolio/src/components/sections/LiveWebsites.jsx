@@ -28,6 +28,12 @@ const websites = [
     url: "https://anatomy-of-a-suit.onrender.com"
   },
   {
+    title: "JayRouter",
+    description: "One API key for 32 free AI models across Gemini, Groq, OpenRouter and Cohere, with automatic failover between providers.",
+    image: "/projects/jayrouter.webp",
+    url: "https://jayrouter.onrender.com"
+  },
+  {
     title: "Finance Tracker",
     description: "Personal income/expense tracker with Google OAuth and per-user data, backed by a real REST API.",
     image: "/projects/financetracker.webp",

@@ -36,6 +36,14 @@ const projects = [
     githubUrl: "https://github.com/abakahjay/Anatomy-of-a-Suit"
   },
   {
+    title: "JayRouter",
+    description: "One OpenAI-compatible API over the free tiers of Gemini, Groq, OpenRouter and Cohere: 32 models and about 165M free tokens a month, with automatic failover when a provider hits its limit. My rebranded, hardened deployment of the open-source FreeLLMAPI router on Render, wired into Claude Code, Codex, OpenCode and VS Code agents.",
+    tech: ["Node.js", "TypeScript", "React", "SQLite", "Docker", "Render"],
+    image: "/projects/jayrouter.webp",
+    liveUrl: "https://jayrouter.onrender.com",
+    githubUrl: "https://github.com/abakahjay/JayRouter"
+  },
+  {
     title: "Finance Tracker",
     description: "A personal income/expense tracker with per-user data, Google OAuth login, and live toast notifications — backed by a real REST API rather than local mock data.",
     tech: ["React", "Vite", "Node.js", "MongoDB", "Express"],
